@@ -2,7 +2,7 @@
 
 for i ({16..32..4}) {
     ver=v${i}
-    git checkout --orphan=$ver
+    git checkout --orphan=$ver ||  git checkout $ver
     args=(
         set action.yml
         --key runs.using
