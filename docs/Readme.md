@@ -13,9 +13,7 @@ A1: It's used to obtain the file path for the NodeJS that comes with the Github 
 
 ### Q2: What was the original intention behind creating this action?
 
-A2:
-
-I wanted to write actions in Rust, compile them into WebAssembly (WASM), and then invoke them using NodeJS.
+A2: I wanted to write actions in Rust, compile them into WebAssembly (WASM), and then invoke them using NodeJS.
 
 Unfortunately, not all systems come with NodeJS pre-installed.
 

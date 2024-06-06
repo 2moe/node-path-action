@@ -13,9 +13,7 @@ A1: 用来获取 Github Actions Runner (运行器) 自带的 NodeJS 的文件路
 
 ### Q2: 创建这个 action 的初衷是什么？
 
-A2:
-
-我想要用 rust 来写 actions，然后编译成 WASM (WebAssembly)，最后用 NodeJS 来调用它。
+A2: 我想要用 rust 来写 actions，然后编译成 WASM (WebAssembly)，最后用 NodeJS 来调用它。
 
 Unfortunately, 不是所有系统都预装了 NodeJS。
 
