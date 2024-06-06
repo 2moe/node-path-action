@@ -71,7 +71,7 @@ Tips:
 
 ---
 
-If you’re using Github Actions Runners instead of self-hosted runners, you don’t need to use this action. You can directly use Node as a shell.
+If you’re using Github Runners instead of self-hosted runners, you don’t need to use this action. You can directly use Node as a shell.
 
 ```yaml
       - name: Hello World
