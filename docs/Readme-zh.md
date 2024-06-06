@@ -55,7 +55,7 @@ Tips:
 
 ---
 
-如果是 Github Actions 的 Runners，而不是自托管的运行器，则您无需使用本 action。
+如果是 Github 的 Runners，而不是自托管的运行器，则您无需使用本 action。
 
 您可以直接将 node 作为 shell 来使用。
 
