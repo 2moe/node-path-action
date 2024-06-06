@@ -1,4 +1,4 @@
-#!/usr/bin/env/zsh -f
+#!/usr/bin/env zsh -f
 
 for i ({16..32..4}) {
     ver=v${i}
