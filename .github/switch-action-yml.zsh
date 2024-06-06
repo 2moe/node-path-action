@@ -1,4 +1,4 @@
-#!/usr/bin/env/zsh -f
+#!/bin/zsh -f
 
 for i ({16..32..4}) {
     ver=v${i}
@@ -12,5 +12,5 @@ for i ({16..32..4}) {
     tomlyre $args
     git add .
     git commit -m "chore: update action.yml"
-    git push
+    git push --set-upstream origin $ver
 }
