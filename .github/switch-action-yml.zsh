@@ -14,3 +14,4 @@ for i ({16..32..4}) {
     git commit -m "chore: update action.yml"
     git push --set-upstream origin $ver
 }
+git checkout dev
