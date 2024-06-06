@@ -9,4 +9,4 @@ outputs:
     description: Path to the NodeJS executable file
 runs:
   main: src/index.mjs
-  using: node24
+  using: node20
