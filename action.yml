@@ -1,0 +1,12 @@
+author: 2moe
+description: Get the path to the NodeJS executable.
+name: Get NodeJS Path
+branding:
+  color: green
+  icon: git-commit
+outputs:
+  exe:
+    description: Path to the NodeJS executable file
+runs:
+  main: src/index.mjs
+  using: node20
