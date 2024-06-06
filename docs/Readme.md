@@ -17,10 +17,10 @@ A2: I wanted to write actions in Rust, compile them into WebAssembly (WASM), and
 
 Unfortunately, not all systems come with NodeJS pre-installed.
 
+Fortunately, we can use the NodeJS that comes with the Runner.
+
 - If it's your own machine, you can simply add the PATH.
 - However, if you're sharing actions with others, it's best not to make significant changes to the system environment.
-
-Fortunately, we can use the NodeJS that comes with the Runner.
 
 > The Runner's built-in NodeJS is located in the `externals` directory, such as `/path/to/runners/externals/node20/bin/node`.
 
