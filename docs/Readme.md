@@ -22,7 +22,7 @@ Fortunately, we can use the NodeJS that comes with the Runner.
 - If it's your own machine, you can simply add the PATH.
 - However, if you're sharing actions with others, it's best not to make significant changes to the system environment.
 
-> The Runner commes with NodeJS is located in the `externals` directory, such as `/path/to/runners/externals/node20/bin/node`.
+> The Runner that comes with NodeJS is located in the `externals` directory, such as `/path/to/runners/externals/node20/bin/node`.
 
 ## Quick Start
 
